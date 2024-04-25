@@ -18,6 +18,7 @@ function App() {
       <Route path="/" element={<Home/>} />
       <Route path="/profile" element={<Profile/>} />
       <Route path="/feed" element={<Feed/>} />
+      <Route path="*" element={<h1>NOt Found</h1>} />
      </Routes>
     
     
